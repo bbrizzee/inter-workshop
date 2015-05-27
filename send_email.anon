@@ -1,0 +1,4 @@
+String address = 'YOUR_EMAIL_ADDRESS';
+String subject = 'Speaker Confirmation';
+String body = 'Thank you for speaking at the conference.';
+EmailManager.sendMail(address, subject, body);
